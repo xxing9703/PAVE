@@ -34,5 +34,7 @@ list=readtable(fullfile(pathname,'CID-neg-yeast.csv')); %+++++++ CID peaklist ge
     list=table2array(list);
 dbase=readtable(fullfile(pathname,'db_master.xlsx'));%+++++++ load dbase
 
-
+% --------run PAVE
+addpath('..\');
+PAVE_main
 
