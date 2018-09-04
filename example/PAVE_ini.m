@@ -13,7 +13,7 @@ settings.threshold=0.75; % Correlation score threshold for pattern recognition
 settings.override=0; % id fixed if pk.feature is filled (=0). id can change (=1) 
 settings.verbose=1; % display the progress
 rep=[3 3 3 3 2]; %repeated runs for [unlabel, 15N, 13C, 13C15N, pblk]
-
+addpath('..\');
 %********************************Loading 
 pathname=''; %+++ pathname
 load (fullfile(pathname,'M_neg_yeast.mat')) %+++++++ load raw data, M
@@ -35,6 +35,6 @@ list=readtable(fullfile(pathname,'CID-neg-yeast.csv')); %+++++++ CID peaklist ge
 dbase=readtable(fullfile(pathname,'db_master.xlsx'));%+++++++ load dbase
 
 % --------run PAVE
-addpath('..\');
+
 PAVE_main
 
