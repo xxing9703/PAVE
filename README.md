@@ -24,4 +24,5 @@ PAVE_main goes through the following steps for each peak:
 6) pave_dbsearch.m -- formula match with the database
 
 Please refer to the PAVE workflow documentation for the details of each function. 
+UPDATE: the gui version of pave is available: https://github.com/xxing9703/PAVE2.0
 
