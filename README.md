@@ -26,3 +26,4 @@ PAVE_main goes through the following steps for each peak:
 Please refer to the PAVE workflow documentation for the details of each function. 
 UPDATE: the gui version of pave is available: https://github.com/xxing9703/PAVE2.0
 
+If you use PAVE in a scientific publication, we would appreciate citations: https://pubs.acs.org/doi/10.1021/acs.analchem.8b03132
