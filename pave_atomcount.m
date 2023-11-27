@@ -14,7 +14,7 @@ for num=1:sz
     mz=pks(num).mz;
     C_max=floor(mz/14); %maximum C number
     N_max=10;  %maximum N number
-      P=pattern(rep);
+    P=mypattern(rep);
     C_num=0;
     N_num=0;
     
